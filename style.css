@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+img, .buttons, #resetButton{
+    align-self: center;
+}
+h1{
+    width: 100%;
+    background-color: rgb(250, 218, 223);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#dog{
+    width: 40%;
+    height: auto;
+}
+.center{
+    text-align: center;
+}
+.likeBox{
+    width: 100%;
+}
+.smallSymbol{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+a img{
+    background-color: rgb(250, 218, 223);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#dislikeButton, #likeButton{
+    padding: 0;
+    border: none;
+    background: none;
+}
